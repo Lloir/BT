@@ -1,10 +1,8 @@
-A small Proof of concept of a simple attack on a we-vibe verge device, part of my Uni dissertation
+We-vibe Verge and Magic Motion Flamingo attacks
 
+Requires:<br />
+Python2-pexpect <br />
+Bluez <br />
 
-
-Requires:
-Python2-pexpect
-Bluez
-
-Arch requires:
+Arch requires: <br />
 https://aur.archlinux.org/packages/bluez-utils-compat/
