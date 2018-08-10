@@ -3,5 +3,8 @@ A small Proof of concept of a simple attack on a we-vibe verge device, part of m
 
 
 Requires:
-Python2-pexpect (Arch) not sure what it's called on other distros.
+Python2-pexpect
+Bluez
+
+Arch requires:
 https://aur.archlinux.org/packages/bluez-utils-compat/
