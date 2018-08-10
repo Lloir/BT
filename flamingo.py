@@ -10,7 +10,7 @@ import time
 vibrate_giant_dildo="50:F1:4A:56:70:11" #Flamingo
 
 def print_menu():
-    print 30 * "-", "Verge Attack", 30 * "-"
+    print 30 * "-", "Flamingo Attack", 30 * "-"
     print "1. Slow"
     print "2. Medium"
     print "3. Stupid"
