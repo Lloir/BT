@@ -10,6 +10,14 @@ print("Ensure you have the mac address of the device you wish to attack")
 print("Enter the mac address of the dildo")
 dildo = input("")
 
+if dildo == ("flam"):
+	dildo = ("50:F1:4A:56:70:11")
+	print("Flamingo mode")
+
+if dildo == ("verge"):
+	dildo = ("50:8C:B1:44:8A:AB")
+	print("Verge mode")
+
 print("Enter the vibration")
 vibration = input("")
 
