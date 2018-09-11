@@ -1,4 +1,4 @@
-#!/usr/bin/python2.7
+#!/usr/bin/python2
 # No Licence
 # https://mcuoneclipse.com/2016/12/29/using-python-gatttool-and-bluetooth-low-energy-with-hexiwear/
 # https://extr3metech.wordpress.com/2014/09/14/simple-text-menu-in-python/
