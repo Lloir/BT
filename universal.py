@@ -1,9 +1,24 @@
 #!/usr/bin/python3
 import os
 import subprocess
+import platform
 import pexpect
 import time
 import sys
+
+os = platform.system()
+
+if os == "Windows":
+	print("Windows is detected")
+
+elif os == "Linux":
+	print("Linux is detected")
+
+elif os == "Darwin":
+	Print("MacOS detected")
+else:
+	Print("Unsure what os is running")
+
 
 print("Ensure you have the mac address of the device you wish to attack")
 
