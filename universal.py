@@ -23,20 +23,12 @@ else:
 print("Ensure you have the mac address of the device you wish to attack")
 
 print("Enter the mac address")
-dildo = input("")
-
-
-if dildo == ("flam"):
-	dildo = ("50:F1:4A:56:70:11")
-	print("Flamingo mode")
-
-if dildo == ("verge"):
-	dildo = ("50:8C:B1:44:8A:AB")
-	print("Verge mode")
+mac = input("")
 
 print("Enter the vibration")
 vibration = input("")
 
+if os == "Linux":
 print("gatttool is starting up")
 child = pexpect.spawn("gatttool -I")
 child.sendline("connect {0}".format(dildo))
